@@ -8,5 +8,7 @@
 8.git config --global user.name''你的名字"：创建git账号
 9git config --global user.email "你的邮箱"创建邮箱账号
 10.git ommit -m（“...”message-说明）：将文件提交给仓库
-11.git status:对比改之前与之后的文件
-12.git diff 文件名：查看文件更改的地方
+11.git status:检测改之前与仓库版本的文件是否一致
+12.git diff 用来显是那些地方不一样
+13.git reset --hard (备注十六进制前6位，git)返回所选版本
+14.git log：显示用户所修改的信息git log --pretty=oneline；美化git log的信息)
