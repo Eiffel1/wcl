@@ -4,3 +4,9 @@
 4.cd:“要进入的目录":改变路径
 5.mkdir:“要创建的文件夹名称”：创建文件夹 
 6.git init:"创建版本库（告诉git在那里安家，前提条件：需要cd命令要进入的目录）"
+7.git add :文件名将文件添加到仓库
+8.git config --global user.name''你的名字"：创建git账号
+9git config --global user.email "你的邮箱"创建邮箱账号
+10.git ommit -m（“...”message-说明）：将文件提交给仓库
+11.git status:对比改之前与之后的文件
+12.git diff 文件名：查看文件更改的地方
