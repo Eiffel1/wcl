@@ -14,4 +14,4 @@
 14.git log：显示用户所修改的信息git log --pretty=oneline；美化git log的信息)
 15.cat filename:显示文件filename内容
 16.HEAD指针:HEAD指向那个版本，当前版本就是谁（工作区的版本就是谁）
-17:git reset:展示所有全部操作历史（用来后悔）
+17:git reflog:展示所有全部操作历史（用来后悔）
