@@ -22,3 +22,5 @@
    例如:git diff HEAD --new1.txt;只比较版本库中new.txt和工作区中new.1txt的区别；忽略LECENSE的影响    
 22 git checkout --new1.txt :还原仓库中的HEAD（慎用）HEAD在哪还原到哪
 23.git reset HEAD --new1.txt：放弃暂停区的内容通过git add添加的内容，）同时把工作区的内容也还原到HEAD状态
+24.git rm filenam -->git commit -m 删除暂存区在的filename，并且不提交master中
+25.git三个分区中，有两个分区（工作区、暂存区）的同名文件可以被覆盖
