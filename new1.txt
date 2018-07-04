@@ -20,3 +20,4 @@
 20.git 分区；工作区、暂存区、支线库，commit的内容只是暂存区的内容，若工作区未add，那么工作区的改变就不会commit
 21.当维护多个不重名的文件时，git的这些所有命令都可以指定文件名
    例如:git diff HEAD --new1.txt;只比较版本库中new.txt和工作区中new.1txt的区别；忽略LECENSE的影响    
+22 git checkout --new1.txt :还原仓库中的HEAD（慎用）HEAD在哪还原到哪
