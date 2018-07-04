@@ -15,3 +15,8 @@
 15.cat filename:显示文件filename内容
 16.HEAD指针:HEAD指向那个版本，当前版本就是谁（工作区的版本就是谁）
 17:git reflog:展示所有全部操作历史（用来后悔）
+18.touch；创建文件
+19.vi:进入文件编辑模式（一般模式dd-删除光标在行 x:单个字符 插入模式：按键盘i；命令模式：wq\x保存退出）
+20.git 分区；工作区、暂存区、支线库，commit的内容只是暂存区的内容，若工作区未add，那么工作区的改变就不会commit
+21.当维护多个不重名的文件时，git的这些所有命令都可以指定文件名
+   例如:git diff HEAD --new1.txt;只比较版本库中new.txt和工作区中new.1txt的区别；忽略LECENSE的影响    
